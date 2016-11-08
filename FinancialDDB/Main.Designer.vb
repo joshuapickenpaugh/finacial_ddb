@@ -39,9 +39,9 @@ Partial Class Main
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(13, 12)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(63, 13)
+        Me.Label1.Size = New System.Drawing.Size(60, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "&Asset Cose:"
+        Me.Label1.Text = "&Asset Cost:"
         '
         'txtAssetCost
         '
@@ -135,6 +135,7 @@ Partial Class Main
         Me.Controls.Add(Me.txtAssetCost)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Main"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Deprication Calculator"
         Me.ResumeLayout(False)
         Me.PerformLayout()
